@@ -21,4 +21,4 @@ execute as @a[tag=is_drawing] at @s unless entity @e[type=item,predicate=draw:en
 
 # 未打开过的宝箱不会被销毁
 execute as @e[type=item,predicate=draw:entity/is_loot_chest_item] at @s if data entity @s Item.tag.drawMark run function draw:misc/protect
-# 两种不祥的箱子不会被加保护
+# 两种不祥的箱子和套娃之箱不会被加保护
