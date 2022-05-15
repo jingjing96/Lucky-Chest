@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{BlockEntityTag:{LootTable:\"draw:chests/village/job_site\"},display:{Name:'[\"§e§o工作方块套装\"]'},drawMark:\"loot_chest\"}"
+						}
+					],
+          "name": "minecraft:barrel"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{BlockEntityTag:{LootTable:\"draw:chests/village/cat_morning_gift\"},display:{Name:'[\"§e§o猫猫的礼物\"]'},drawMark:\"loot_chest\"}"
+						}
+					],
+          "name": "minecraft:barrel"
+        }
+      ]
+    }
+  ]
+}

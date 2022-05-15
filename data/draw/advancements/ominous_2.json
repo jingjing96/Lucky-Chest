@@ -1,0 +1,38 @@
+{
+    "parent": "draw:ominous",
+    "display": {
+        "icon": {
+            "item": "minecraft:white_banner",
+            "nbt": "{BlockEntityTag:{id:\"minecraft:banner\",Patterns:[{Pattern:\"mr\",Color:9},{Pattern:\"bs\",Color:8},{Pattern:\"cs\",Color:7},{Pattern:\"bo\",Color:8},{Pattern:\"ms\",Color:15},{Pattern:\"hh\",Color:8},{Pattern:\"mc\",Color:8},{Pattern:\"bo\",Color:15}]}}"
+        },
+        "title": {
+            "text": "糟糕了"
+        },
+        "description": {
+            "text": "打开一个极其不祥的箱子并触发袭击"
+        }
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false,
+    "criteria": {
+        "get_chest": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "draw:chests/overworld/ominous_chest_2"
+            }
+        },
+        "get_raid": {
+            "trigger": "minecraft:voluntary_exile"
+        }
+    },
+    "requirements": [
+        [
+            "get_chest"
+        ],
+        [
+            "get_raid"
+        ]
+    ]
+}

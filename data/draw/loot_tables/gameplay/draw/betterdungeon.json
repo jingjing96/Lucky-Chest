@@ -1,0 +1,44 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{BlockEntityTag:{LootTable:\"chests/simple_dungeon\"},display:{Name:'[\"§e§o地牢宝箱\"]'},drawMark:\"loot_chest\"}"
+						}
+					],
+          "name": "minecraft:barrel"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 8,
+          "functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{BlockEntityTag:{LootTable:\"chests/spawn_bonus_chest\"},display:{Name:'[\"§o生存者奖励箱\"]'},drawMark:\"loot_chest\"}"
+						}
+					],
+          "name": "minecraft:barrel"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 8,
+          "functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{BlockEntityTag:{LootTable:\"draw:chests/overworld/stone\"},display:{Name:'[\"§o石头箱\"]'},drawMark:\"loot_chest\"}"
+						}
+					],
+          "name": "minecraft:barrel"
+        }
+      ]
+    }
+  ]
+}

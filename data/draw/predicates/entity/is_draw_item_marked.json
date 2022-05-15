@@ -1,0 +1,7 @@
+{
+    "condition": "minecraft:entity_properties",
+	"entity": "this",
+    "predicate": {
+        "nbt": "{Item:{id:\"minecraft:lapis_block\",Count:1b},Tags:[\"draw_marked\"]}"
+    }
+}

@@ -1,0 +1,44 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{BlockEntityTag:{LootTable:\"chests/igloo_chest\"},display:{Name:'[\"§b§o雪屋宝箱\"]'},drawMark:\"loot_chest\"}"
+						}
+					],
+          "name": "minecraft:barrel"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{BlockEntityTag:{LootTable:\"draw:chests/overworld/snowy\"},display:{Name:'[\"§o冰雪箱\"]'},drawMark:\"loot_chest\"}"
+						}
+					],
+          "name": "minecraft:barrel"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{BlockEntityTag:{LootTable:\"chests/spawn_bonus_chest\"},display:{Name:'[\"§o生存者奖励箱\"]'},drawMark:\"loot_chest\"}"
+						}
+					],
+          "name": "minecraft:barrel"
+        }
+      ]
+    }
+  ]
+}

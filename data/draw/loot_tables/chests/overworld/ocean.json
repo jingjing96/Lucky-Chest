@@ -1,0 +1,123 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{BlockEntityTag:{LootTable:\"draw:chests/fish/fish_common\"},display:{Name:'[\"§o鱼桶\"]'},drawMark:\"loot_chest\"}"
+						}
+					],
+          "conditions": [
+            {
+              "condition": "minecraft:alternative",
+              "terms": [
+                  {
+                      "condition": "minecraft:location_check",
+                      "predicate":{
+                          "biome": "minecraft:ocean"
+                      }
+                  },
+                  {
+                      "condition": "minecraft:location_check",
+                      "predicate":{
+                          "biome": "minecraft:cold_ocean"
+                      }
+                  },
+                  {
+                      "condition": "minecraft:location_check",
+                      "predicate":{
+                          "biome": "minecraft:deep_ocean"
+                      }
+                  },
+                  {
+                      "condition": "minecraft:location_check",
+                      "predicate":{
+                          "biome": "minecraft:deep_cold_ocean"
+                      }
+                  },
+                  {
+                      "condition": "minecraft:location_check",
+                      "predicate":{
+                          "biome": "minecraft:lukewarm_ocean"
+                      }
+                  },
+                  {
+                      "condition": "minecraft:location_check",
+                      "predicate":{
+                          "biome": "minecraft:deep_lukewarm_ocean"
+                      }
+                  }
+              ]
+            }
+          ],
+          "name": "minecraft:barrel"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{BlockEntityTag:{LootTable:\"draw:chests/fish/fish_frozen\"},display:{Name:'[\"§o冻洋鱼桶\"]'},drawMark:\"loot_chest\"}"
+						}
+					],
+          "conditions": [
+            {
+              "condition": "minecraft:alternative",
+              "terms": [
+                  {
+                      "condition": "minecraft:location_check",
+                      "predicate":{
+                          "biome": "minecraft:frozen_ocean"
+                      }
+                  },
+                  {
+                      "condition": "minecraft:location_check",
+                      "predicate":{
+                          "biome": "minecraft:deep_frozen_ocean"
+                      }
+                  }
+              ]
+          }
+          ],
+          "name": "minecraft:barrel"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{BlockEntityTag:{LootTable:\"draw:chests/fish/fish_warm\"},display:{Name:'[\"§o暖海鱼桶\"]'},drawMark:\"loot_chest\"}"
+						}
+					],
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate":{
+                "biome": "minecraft:warm_ocean"
+              }
+            }
+          ],
+          "name": "minecraft:barrel"
+        }
+      ]
+    }
+  ]
+}

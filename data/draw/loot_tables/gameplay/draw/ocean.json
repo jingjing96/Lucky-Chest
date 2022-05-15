@@ -1,0 +1,142 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{BlockEntityTag:{LootTable:\"draw:chests/overworld/underwater_treasure\"},display:{Name:'[\"§d§o神秘宝箱\"]'},drawMark:\"loot_chest\"}"
+						}
+					],
+          "conditions": [
+            {
+              "condition": "minecraft:alternative",
+              "terms": [
+                  {
+                      "condition": "minecraft:location_check",
+                      "predicate":{
+                          "feature": "ocean_ruin"
+                      }
+                  },
+                  {
+                      "condition": "minecraft:location_check",
+                      "predicate":{
+                          "feature": "monument"
+                      }
+                  }
+              ]
+            }
+          ],
+          "name": "minecraft:barrel"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{BlockEntityTag:{LootTable:\"chests/buried_treasure\"},display:{Name:'[\"§d§o埋藏的宝藏\"]'},drawMark:\"loot_chest\"}"
+						}
+					],
+          "name": "minecraft:barrel"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{BlockEntityTag:{LootTable:\"chests/shipwreck_treasure\"},display:{Name:'[\"§d§o沉船宝箱\"]'},drawMark:\"loot_chest\"}"
+						}
+					],
+          "name": "minecraft:barrel"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 8,
+          "functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{BlockEntityTag:{LootTable:\"draw:chests/monument\"},display:{Name:'[\"§b§o神殿石砖箱\"]'},drawMark:\"loot_chest\"}"
+						}
+					],
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate":{
+                "feature": "monument"
+              }
+            }
+          ],
+          "name": "minecraft:barrel"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 16,
+          "functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{BlockEntityTag:{LootTable:\"chests/underwater_ruin_big\"},display:{Name:'[\"§e§o海底废墟宝箱\"]'},drawMark:\"loot_chest\"}"
+						}
+					],
+          "name": "minecraft:barrel"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 16,
+          "functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{BlockEntityTag:{LootTable:\"chests/underwater_ruin_small\"},display:{Name:'[\"§e§o海底废墟宝箱\"]'},drawMark:\"loot_chest\"}"
+						}
+					],
+          "name": "minecraft:barrel"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 16,
+          "name": "draw:chests/overworld/ocean"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 16,
+          "functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{BlockEntityTag:{LootTable:\"chests/shipwreck_supply\"},display:{Name:'[\"§o沉船补给箱\"]'},drawMark:\"loot_chest\"}"
+						}
+					],
+          "name": "minecraft:barrel"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 16,
+          "functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{BlockEntityTag:{LootTable:\"chests/shipwreck_map\"},display:{Name:'[\"§o沉船地图箱\"]'},drawMark:\"loot_chest\"}"
+						}
+					],
+          "name": "minecraft:barrel"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 16,
+          "functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{BlockEntityTag:{LootTable:\"chests/spawn_bonus_chest\"},display:{Name:'[\"§o生存者奖励箱\"]'},drawMark:\"loot_chest\"}"
+						}
+					],
+          "name": "minecraft:barrel"
+        }
+      ]
+    }
+  ]
+}

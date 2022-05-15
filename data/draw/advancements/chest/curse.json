@@ -1,0 +1,13 @@
+{
+    "criteria": {
+      "get": {
+        "trigger": "minecraft:player_generates_container_loot",
+        "conditions": {
+          "loot_table": "draw:chests/overworld/underwater_treasure"
+        }
+      }
+    },
+    "rewards": {
+        "function": "draw:effect/mining_fatigue"
+    }
+  }

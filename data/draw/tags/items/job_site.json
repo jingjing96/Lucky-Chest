@@ -1,0 +1,17 @@
+{
+    "values": [
+        "minecraft:smoker",
+        "minecraft:blast_furnace",
+        "minecraft:barrel",
+        "minecraft:composter",
+        "minecraft:stonecutter",
+        "minecraft:grindstone",
+        "minecraft:loom",
+        "minecraft:lectern",
+        "minecraft:cartography_table",
+        "minecraft:fletching_table",
+        "minecraft:smithing_table",
+        "minecraft:brewing_stand",
+        "minecraft:cauldron"
+    ]
+}

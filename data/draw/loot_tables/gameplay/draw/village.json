@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "name": "draw:gameplay/draw/village_ominous"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 4,
+          "name": "draw:gameplay/draw/village_special"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 10,
+          "name": "draw:gameplay/draw/village_purple"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 20,
+          "name": "draw:gameplay/draw/village_gold"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 30,
+          "name": "draw:gameplay/draw/village_green"
+        }
+      ]
+    }
+  ]
+}

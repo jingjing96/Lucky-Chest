@@ -1,0 +1,13 @@
+{
+    "criteria": {
+      "get": {
+        "trigger": "minecraft:player_generates_container_loot",
+        "conditions": {
+          "loot_table": "draw:chests/overworld/ominous_chest_2"
+        }
+      }
+    },
+    "rewards": {
+        "function": "draw:effect/bad_omen_2"
+    }
+  }

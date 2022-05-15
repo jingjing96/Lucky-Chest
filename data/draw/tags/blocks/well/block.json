@@ -1,0 +1,18 @@
+{
+    "values": [
+        "minecraft:bricks",
+        "minecraft:granite",
+        "minecraft:diorite",
+        "minecraft:andesite",
+        "minecraft:cobbled_deepslate",
+        "minecraft:polished_blackstone_bricks",
+        "minecraft:cracked_polished_blackstone_bricks",
+        "minecraft:prismarine",
+        "minecraft:sandstone",
+        "minecraft:red_sandstone",
+        "minecraft:end_stone_bricks",
+        "minecraft:mossy_cobblestone",
+        "minecraft:cracked_nether_bricks",
+        "minecraft:mossy_stone_bricks"
+    ]
+}

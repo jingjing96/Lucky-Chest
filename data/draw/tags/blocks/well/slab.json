@@ -1,0 +1,16 @@
+{
+    "values": [
+        "minecraft:brick_slab",
+        "minecraft:granite_slab",
+        "minecraft:diorite_slab",
+        "minecraft:andesite_slab",
+        "minecraft:cobbled_deepslate_slab",
+        "minecraft:polished_blackstone_brick_slab",
+        "minecraft:prismarine_slab",
+        "minecraft:sandstone_slab",
+        "minecraft:red_sandstone_slab",
+        "minecraft:end_stone_brick_slab",
+        "minecraft:mossy_cobblestone_slab",
+        "minecraft:mossy_stone_brick_slab"
+    ]
+}

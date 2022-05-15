@@ -1,0 +1,136 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{BlockEntityTag:{LootTable:\"chests/village/village_desert_house\"},display:{Name:'[\"§o沙漠村庄的箱子\"]'},drawMark:\"loot_chest\"}"
+						}
+					],
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:desert"
+              }
+            }
+          ],
+          "name": "minecraft:barrel"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{BlockEntityTag:{LootTable:\"chests/village/village_plains_house\"},display:{Name:'[\"§o平原村庄的箱子\"]'},drawMark:\"loot_chest\"}"
+						}
+					],
+          "conditions": [
+            {
+              "condition": "minecraft:alternative",
+              "terms": [
+                  {
+                      "condition": "minecraft:location_check",
+                      "predicate":{
+                          "biome": "minecraft:plains"
+                      }
+                  },
+                  {
+                      "condition": "minecraft:location_check",
+                      "predicate":{
+                          "biome": "minecraft:meadow"
+                      }
+                  }
+              ]
+          }
+          ],
+          "name": "minecraft:barrel"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{BlockEntityTag:{LootTable:\"chests/village/village_savanna_house\"},display:{Name:'[\"§o热带草原村庄的箱子\"]'},drawMark:\"loot_chest\"}"
+						}
+					],
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:savanna"
+              }
+            }
+          ],
+          "name": "minecraft:barrel"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{BlockEntityTag:{LootTable:\"chests/village/village_snowy_house\"},display:{Name:'[\"§o雪原村庄的箱子\"]'},drawMark:\"loot_chest\"}"
+						}
+					],
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:snowy"
+              }
+            }
+          ],
+          "name": "minecraft:barrel"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{BlockEntityTag:{LootTable:\"chests/village/village_taiga_house\"},display:{Name:'[\"§o针叶林村庄的箱子\"]'},drawMark:\"loot_chest\"}"
+						}
+					],
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:taiga"
+              }
+            }
+          ],
+          "name": "minecraft:barrel"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{BlockEntityTag:{Items:[{Slot:0b,id:\"minecraft:shulker_box\",Count:1b,tag:{BlockEntityTag:{Items:[{Slot:0b,id:\"minecraft:shulker_box\",Count:1b,tag:{BlockEntityTag:{Items:[{Slot:0b,id:\"minecraft:shulker_box\",Count:1b,tag:{BlockEntityTag:{Items:[{Slot:0b,id:\"minecraft:shulker_box\",Count:1b,tag:{BlockEntityTag:{Items:[{Slot:0b,id:\"minecraft:shulker_box\",Count:1b,tag:{BlockEntityTag:{Items:[{Slot:0b,id:\"minecraft:shulker_box\",Count:1b,tag:{BlockEntityTag:{Items:[{Slot:0b,id:\"minecraft:shulker_box\",Count:1b,tag:{BlockEntityTag:{Items:[{Slot:0b,id:\"minecraft:shulker_box\",Count:1b,tag:{BlockEntityTag:{Items:[{Slot:0b,id:\"minecraft:shulker_box\",Count:1b,tag:{BlockEntityTag:{Items:[{Slot:0b,id:\"minecraft:shulker_box\",Count:1b,tag:{BlockEntityTag:{Items:[{Slot:0b,id:\"minecraft:shulker_box\",Count:1b,tag:{BlockEntityTag:{Items:[{Slot:0b,id:\"minecraft:shulker_box\",Count:1b,tag:{BlockEntityTag:{Items:[{Slot:0b,id:\"minecraft:shulker_box\",Count:1b,tag:{BlockEntityTag:{Items:[{Slot:0b,id:\"minecraft:shulker_box\",Count:1b,tag:{BlockEntityTag:{Items:[{Slot:0b,id:\"minecraft:shulker_box\",Count:1b,tag:{BlockEntityTag:{LootTable:\"draw:chests/end/nesting_boxes\"},display:{Name:'[\"§c§o套娃之箱\"]'},drawMark:\"nesting_boxes\"}}]},display:{Name:'[\"§c§o套娃之箱\"]'},drawMark:\"nesting_boxes\"}}]},display:{Name:'[\"§c§o套娃之箱\"]'},drawMark:\"nesting_boxes\"}}]},display:{Name:'[\"§c§o套娃之箱\"]'},drawMark:\"nesting_boxes\"}}]},display:{Name:'[\"§c§o套娃之箱\"]'},drawMark:\"nesting_boxes\"}}]},display:{Name:'[\"§c§o套娃之箱\"]'},drawMark:\"nesting_boxes\"}}]},display:{Name:'[\"§c§o套娃之箱\"]'},drawMark:\"nesting_boxes\"}}]},display:{Name:'[\"§c§o套娃之箱\"]'},drawMark:\"nesting_boxes\"}}]},display:{Name:'[\"§c§o套娃之箱\"]'},drawMark:\"nesting_boxes\"}}]},display:{Name:'[\"§c§o套娃之箱\"]'},drawMark:\"nesting_boxes\"}}]},display:{Name:'[\"§c§o套娃之箱\"]'},drawMark:\"nesting_boxes\"}}]},display:{Name:'[\"§c§o套娃之箱\"]'},drawMark:\"nesting_boxes\"}}]},display:{Name:'[\"§c§o套娃之箱\"]'},drawMark:\"nesting_boxes\"}}]},display:{Name:'[\"§c§o套娃之箱\"]'},drawMark:\"nesting_boxes\"}}]},display:{Name:'[\"§c§o套娃之箱\"]'},drawMark:\"nesting_boxes\"}}]},display:{Name:'[\"§c§o套娃之箱\"]'},drawMark:\"nesting_boxes\"}"
+						}
+					],
+          "name": "minecraft:shulker_box"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{BlockEntityTag:{LootTable:\"draw:chests/end/treasure\"},display:{Name:'[\"§d§o神秘宝箱\"]'},drawMark:\"loot_chest\"}"
+						}
+					],
+          "name": "minecraft:barrel"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{BlockEntityTag:{LootTable:\"chests/end_city_treasure\"},display:{Name:'[\"§d§o末地城宝箱\"]'},drawMark:\"loot_chest\"}"
+						}
+					],
+          "name": "minecraft:barrel"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 36,
+          "functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{BlockEntityTag:{LootTable:\"draw:chests/end/chorus\"},display:{Name:'[\"§o末地特产箱\"]'},drawMark:\"loot_chest\"}"
+						}
+					],
+          "name": "minecraft:barrel"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 72,
+          "functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{BlockEntityTag:{LootTable:\"draw:chests/end/blocks\"},display:{Name:'[\"§o末地方块箱\"]'},drawMark:\"loot_chest\"}"
+						}
+					],
+          "name": "minecraft:barrel"
+        }
+      ]
+    }
+  ]
+}

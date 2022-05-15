@@ -1,0 +1,543 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 8.0,
+        "max": 16.0
+      },
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 28.0,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 4.0
+              },
+              "add": false
+            }
+          ],
+          "name": "minecraft:deepslate"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 28.0,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 4.0
+              },
+              "add": false
+            }
+          ],
+          "name": "minecraft:cobbled_deepslate"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 28.0,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 2.0
+              },
+              "add": false
+            }
+          ],
+          "name": "minecraft:gravel"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 28.0,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 2.0
+              },
+              "add": false
+            }
+          ],
+          "name": "minecraft:tuff"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2.0,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 2.0
+              },
+              "add": false
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "dimension": "minecraft:overworld",
+              "predicate":{
+                "position": {
+                  "y": {
+                    "max": 30,
+                    "min": -2032
+                  }
+                }
+              }
+            }
+          ],
+          "name": "minecraft:smooth_basalt"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2.0,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 2.0
+              },
+              "add": false
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "dimension": "minecraft:overworld",
+              "predicate":{
+                "position": {
+                  "y": {
+                    "max": 30,
+                    "min": -2032
+                  }
+                }
+              }
+            }
+          ],
+          "name": "minecraft:calcite"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1.0,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 2.0
+              },
+              "add": false
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "dimension": "minecraft:overworld",
+              "predicate":{
+                "position": {
+                  "y": {
+                    "max": 30,
+                    "min": -2032
+                  }
+                }
+              }
+            }
+          ],
+          "name": "minecraft:amethyst_shard"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 0.0,
+        "max": 2.0
+      },
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 32,
+          "name": "minecraft:deepslate"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 16,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 4.0
+              },
+              "add": false
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "dimension": "minecraft:overworld",
+              "predicate": {
+                "position": {
+                  "y": {
+                    "max": 0,
+                    "min": -16
+                  }
+                }
+              }
+            }
+          ],
+          "name": "minecraft:deepslate_coal_ore"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 16,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 4.0
+              },
+              "add": false
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "dimension": "minecraft:overworld",
+              "predicate": {
+                "position": {
+                  "y": {
+                    "max": -16,
+                    "min": -2032
+                  }
+                }
+              }
+            }
+          ],
+          "name": "minecraft:deepslate"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 4.0
+              },
+              "add": false
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "dimension": "minecraft:overworld",
+              "predicate":{
+                "position": {
+                  "y": {
+                    "max": 0,
+                    "min": -16
+                  }
+                }
+              }
+            }
+          ],
+          "name": "minecraft:deepslate_copper_ore"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 4.0
+              },
+              "add": false
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "dimension": "minecraft:overworld",
+              "predicate":{
+                "position": {
+                  "y": {
+                    "max": -16,
+                    "min": -2032
+                  }
+                }
+              }
+            }
+          ],
+          "name": "minecraft:deepslate"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 4.0
+              },
+              "add": false
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "dimension": "minecraft:overworld",
+              "predicate":{
+                "position": {
+                  "y": {
+                    "max": 0,
+                    "min": -2032
+                  }
+                }
+              }
+            }
+          ],
+          "name": "minecraft:deepslate_iron_ore"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 4.0
+              },
+              "add": false
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "dimension": "minecraft:overworld",
+              "predicate":{
+                "position": {
+                  "y": {
+                    "max": 0,
+                    "min": -2032
+                  }
+                }
+              }
+            }
+          ],
+          "name": "minecraft:deepslate_redstone_ore"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 2.0
+              },
+              "add": false
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "dimension": "minecraft:overworld",
+              "predicate":{
+                "position": {
+                  "y": {
+                    "max": 0,
+                    "min": -2032
+                  }
+                }
+              }
+            }
+          ],
+          "name": "minecraft:deepslate_lapis_ore"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 2.0
+              },
+              "add": false
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:alternative",
+              "terms": [
+                  {
+                      "condition": "minecraft:location_check",
+                      "predicate":{
+                          "biome": "minecraft:windswept_hills"
+                      }
+                  },
+                  {
+                      "condition": "minecraft:location_check",
+                      "predicate":{
+                          "biome": "minecraft:windswept_forest"
+                      }
+                  },
+                  {
+                      "condition": "minecraft:location_check",
+                      "predicate":{
+                          "biome": "minecraft:windswept_gravelly_hills"
+                      }
+                  },
+                  {
+                    "condition": "minecraft:location_check",
+                    "predicate":{
+                        "biome": "minecraft:meadow"
+                    }
+                },
+                {
+                    "condition": "minecraft:location_check",
+                    "predicate":{
+                        "biome": "minecraft:groove"
+                    }
+                },
+                {
+                    "condition": "minecraft:location_check",
+                    "predicate":{
+                        "biome": "minecraft:snowy_slopes"
+                    }
+                },
+                {
+                    "condition": "minecraft:location_check",
+                    "predicate":{
+                        "biome": "minecraft:jagged_peaks"
+                    }
+                },
+                {
+                    "condition": "minecraft:location_check",
+                    "predicate":{
+                        "biome": "minecraft:frozen_peaks"
+                    }
+                },
+                {
+                    "condition": "minecraft:location_check",
+                    "predicate":{
+                        "biome": "minecraft:stony_peaks"
+                    }
+                }
+              ]
+            },
+            {
+              "condition": "minecraft:location_check",
+              "dimension": "minecraft:overworld",
+              "predicate":{
+                "position": {
+                  "y": {
+                    "max": 0,
+                    "min": -16
+                  }
+                }
+              }
+            }
+          ],
+          "name": "minecraft:deepslate_emerald_ore"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 2.0
+              },
+              "add": false
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "dimension": "minecraft:overworld",
+              "predicate":{
+                "position": {
+                  "y": {
+                    "max": 0,
+                    "min": -2032
+                  }
+                }
+              }
+            }
+          ],
+          "name": "minecraft:deepslate_gold_ore"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 2.0
+              },
+              "add": false
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "dimension": "minecraft:overworld",
+              "predicate":{
+                "position": {
+                  "y": {
+                    "max": 0,
+                    "min": -2032
+                  }
+                }
+              }
+            }
+          ],
+          "name": "minecraft:deepslate_diamond_ore"
+        }
+      ]
+    }
+  ]
+}

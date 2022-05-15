@@ -1,0 +1,682 @@
+{
+    "parent": "draw:root",
+    "display": {
+        "icon": {
+            "item": "minecraft:barrel"
+        },
+        "title": {
+            "text": "幸运儿"
+        },
+        "description": {
+            "text": "打开所有战利品箱"
+        }
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false,
+    "criteria": {
+        "village_armorer": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "draw:chests/village/jobs/village_armorer"
+            }
+        },
+        "village_butcher": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "draw:chests/village/jobs/village_butcher"
+            }
+        },
+        "village_cartographer": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "draw:chests/village/jobs/village_cartographer"
+            }
+        },
+        "village_fisher": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "draw:chests/village/jobs/village_fisher"
+            }
+        },
+        "village_fletcher": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "draw:chests/village/jobs/village_fletcher"
+            }
+        },
+        "village_mason": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "draw:chests/village/jobs/village_mason"
+            }
+        },
+        "village_shepherd": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "draw:chests/village/jobs/village_shepherd"
+            }
+        },
+        "village_tannery": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "draw:chests/village/jobs/village_tannery"
+            }
+        },
+        "village_temple": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "draw:chests/village/jobs/village_temple"
+            }
+        },
+        "village_toolsmith": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "draw:chests/village/jobs/village_toolsmith"
+            }
+        },
+        "village_weaponsmith": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "draw:chests/village/jobs/village_weaponsmith"
+            }
+        },
+        "village_desert_house": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "chests/village/village_desert_house"
+            }
+        },
+        "village_plains_house": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "chests/village/village_plains_house"
+            }
+        },
+        "village_savanna_house": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "chests/village/village_savanna_house"
+            }
+        },
+        "village_snowy_house": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "chests/village/village_snowy_house"
+            }
+        },
+        "village_taiga_house": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "chests/village/village_taiga_house"
+            }
+        },
+        "village_building_blocks": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "draw:chests/village/building_blocks"
+            }
+        },
+        "villager_job_site": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "draw:chests/village/job_site"
+            }
+        },
+        "hero_of_the_village": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "draw:chests/village/hero_of_the_village"
+            }
+        },
+        "cat_morning_gift": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "draw:chests/village/cat_morning_gift"
+            }
+        },
+        "fish_common": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "draw:chests/fish/fish_common"
+            }
+        },
+        "fish_frozen": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "draw:chests/fish/fish_frozen"
+            }
+        },
+        "fish_warm": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "draw:chests/fish/fish_warm"
+            }
+        },
+        "badlands": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "draw:chests/overworld/badlands"
+            }
+        },
+        "deepslate": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "draw:chests/overworld/deepslate"
+            }
+        },
+        "desert": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "draw:chests/overworld/desert"
+            }
+        },
+        "flower": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "draw:chests/overworld/flower"
+            }
+        },
+        "jungle": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "draw:chests/overworld/jungle"
+            }
+        },
+        "lush_caves": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "draw:chests/overworld/lush_caves"
+            }
+        },
+        "monument": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "draw:chests/overworld/monument"
+            }
+        },
+        "ominous_chest": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "draw:chests/overworld/ominous_chest"
+            }
+        },
+        "ominous_chest_2": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "draw:chests/overworld/ominous_chest_2"
+            }
+        },
+        "rock": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "draw:chests/overworld/rock"
+            }
+        },
+        "snowy": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "draw:chests/overworld/snowy"
+            }
+        },
+        "stone": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "draw:chests/overworld/stone"
+            }
+        },
+        "stone_bricks": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "draw:chests/overworld/stone_bricks"
+            }
+        },
+        "terracotta": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "draw:chests/overworld/terracotta"
+            }
+        },
+        "underwater_treasure": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "draw:chests/overworld/underwater_treasure"
+            }
+        },
+        "bastion_building_blocks": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "draw:chests/nether/bastion_building_blocks"
+            }
+        },
+        "nether_blocks": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "draw:chests/nether/blocks"
+            }
+        },
+        "fortress_building_blocks": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "draw:chests/nether/fortress_building_blocks"
+            }
+        },
+        "piglin_bartering": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "draw:chests/nether/piglin_bartering"
+            }
+        },
+        "plants": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "draw:chests/nether/plants"
+            }
+        },
+        "spawn_bonus_chest_nether": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "draw:chests/nether/spawn_bonus_chest_nether"
+            }
+        },
+        "end_blocks": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "draw:chests/end/blocks"
+            }
+        },
+        "chorus": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "draw:chests/end/chorus"
+            }
+        },
+        "nesting_boxes": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "draw:chests/end/nesting_boxes"
+            }
+        },
+        "treasure": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "draw:chests/end/treasure"
+            }
+        },
+        "abandoned_mineshaft": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "chests/abandoned_mineshaft"
+            }
+        },
+        "bastion_bridge": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "chests/bastion_bridge"
+            }
+        },
+        "bastion_hoglin_stable": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "chests/bastion_hoglin_stable"
+            }
+        },
+        "bastion_other": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "chests/bastion_other"
+            }
+        },
+        "bastion_treasure": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "chests/bastion_treasure"
+            }
+        },
+        "buried_treasure": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "chests/buried_treasure"
+            }
+        },
+        "desert_pyramid": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "chests/desert_pyramid"
+            }
+        },
+        "end_city_treasure": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "chests/end_city_treasure"
+            }
+        },
+        "igloo_chest": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "chests/igloo_chest"
+            }
+        },
+        "jungle_temple": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "chests/jungle_temple"
+            }
+        },
+        "jungle_temple_dispenser": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "chests/jungle_temple_dispenser"
+            }
+        },
+        "nether_bridge": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "chests/nether_bridge"
+            }
+        },
+        "pillager_outpost": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "chests/pillager_outpost"
+            }
+        },
+        "ruined_portal": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "chests/ruined_portal"
+            }
+        },
+        "shipwreck_map": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "chests/shipwreck_map"
+            }
+        },
+        "shipwreck_supply": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "chests/shipwreck_supply"
+            }
+        },
+        "shipwreck_treasure": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "chests/shipwreck_treasure"
+            }
+        },
+        "simple_dungeon": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "chests/simple_dungeon"
+            }
+        },
+        "spawn_bonus_chest": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "chests/spawn_bonus_chest"
+            }
+        },
+        "stronghold_corridor": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "chests/stronghold_corridor"
+            }
+        },
+        "stronghold_crossing": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "chests/stronghold_crossing"
+            }
+        },
+        "stronghold_library": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "chests/stronghold_library"
+            }
+        },
+        "underwater_ruin_big": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "chests/underwater_ruin_big"
+            }
+        },
+        "underwater_ruin_small": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "chests/underwater_ruin_small"
+            }
+        },
+        "woodland_mansion": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "chests/woodland_mansion"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "village_armorer"
+        ],
+        [
+            "village_butcher"
+        ],
+        [
+            "village_cartographer"
+        ],
+        [
+            "village_desert_house"
+        ],
+        [
+            "village_fisher"
+        ],
+        [
+            "village_fletcher"
+        ],
+        [
+            "village_mason"
+        ],
+        [
+            "village_plains_house"
+        ],
+        [
+            "village_savanna_house"
+        ],
+        [
+            "village_shepherd"
+        ],
+        [
+            "village_snowy_house"
+        ],
+        [
+            "village_taiga_house"
+        ],
+        [
+            "village_tannery"
+        ],
+        [
+            "village_temple"
+        ],
+        [
+            "village_toolsmith"
+        ],
+        [
+            "village_weaponsmith"
+        ],
+        [
+            "village_building_blocks"
+        ],
+        [
+            "villager_job_site"
+        ],
+        [
+            "hero_of_the_village"
+        ],
+        [
+            "cat_morning_gift"
+        ],
+        [
+            "fish_common"
+        ],
+        [
+            "fish_frozen"
+        ],
+        [
+            "fish_warm"
+        ],
+        [
+            "badlands"
+        ],
+        [
+            "deepslate"
+        ],
+        [
+            "desert"
+        ],
+        [
+            "flower"
+        ],
+        [
+            "jungle"
+        ],
+        [
+            "lush_caves"
+        ],
+        [
+            "monument"
+        ],
+        [
+            "ominous_chest"
+        ],
+        [
+            "ominous_chest_2"
+        ],
+        [
+            "rock"
+        ],
+        [
+            "snowy"
+        ],
+        [
+            "stone"
+        ],
+        [
+            "stone_bricks"
+        ],
+        [
+            "terracotta"
+        ],
+        [
+            "underwater_treasure"
+        ],
+        [
+            "bastion_building_blocks"
+        ],
+        [
+            "nether_blocks"
+        ],
+        [
+            "fortress_building_blocks"
+        ],
+        [
+            "piglin_bartering"
+        ],
+        [
+            "plants"
+        ],
+        [
+            "spawn_bonus_chest_nether"
+        ],
+        [
+            "end_blocks"
+        ],
+        [
+            "chorus"
+        ],
+        [
+            "nesting_boxes"
+        ],
+        [
+            "treasure"
+        ],
+        [
+            "abandoned_mineshaft"
+        ],
+        [
+            "bastion_bridge"
+        ],
+        [
+            "bastion_hoglin_stable"
+        ],
+        [
+            "bastion_other"
+        ],
+        [
+            "bastion_treasure"
+        ],
+        [
+            "buried_treasure"
+        ],
+        [
+            "desert_pyramid"
+        ],
+        [
+            "end_city_treasure"
+        ],
+        [
+            "igloo_chest"
+        ],
+        [
+            "jungle_temple"
+        ],
+        [
+            "jungle_temple_dispenser"
+        ],
+        [
+            "nether_bridge"
+        ],
+        [
+            "pillager_outpost"
+        ],
+        [
+            "ruined_portal"
+        ],
+        [
+            "shipwreck_map"
+        ],
+        [
+            "shipwreck_supply"
+        ],
+        [
+            "shipwreck_treasure"
+        ],
+        [
+            "simple_dungeon"
+        ],
+        [
+            "spawn_bonus_chest"
+        ],
+        [
+            "stronghold_corridor"
+        ],
+        [
+            "stronghold_crossing"
+        ],
+        [
+            "stronghold_library"
+        ],
+        [
+            "underwater_ruin_big"
+        ],
+        [
+            "underwater_ruin_small"
+        ],
+        [
+            "woodland_mansion"
+        ]
+    ],
+    "rewards": {
+        "experience": 500
+    }
+}
