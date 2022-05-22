@@ -13,6 +13,8 @@
         "minecraft:end_stone_bricks",
         "minecraft:mossy_cobblestone",
         "minecraft:cracked_nether_bricks",
-        "minecraft:mossy_stone_bricks"
+        "minecraft:mossy_stone_bricks",
+        "minecraft:deepslate_bricks",
+        "minecraft:cracked_deepslate_bricks"
     ]
 }

@@ -4,25 +4,25 @@
         {
             "condition": "minecraft:location_check",
             "predicate":{
-                "feature": "betterdungeons:small_dungeon"
+                "structure": "betterdungeons:small_dungeon"
             }
         },
         {
             "condition": "minecraft:location_check",
             "predicate":{
-                "feature": "betterdungeons:skeleton_dungeon"
+                "structure": "betterdungeons:skeleton_dungeon"
             }
         },
         {
             "condition": "minecraft:location_check",
             "predicate":{
-                "feature": "betterdungeons:zombie_dungeon"
+                "structure": "betterdungeons:zombie_dungeon"
             }
         },
         {
             "condition": "minecraft:location_check",
             "predicate":{
-                "feature": "betterdungeons:spider_dungeon"
+                "structure": "betterdungeons:spider_dungeon"
             }
         }
     ]

@@ -41,6 +41,9 @@ execute as @s at @s if predicate draw:structure/in_jungle_pyramid if predicate d
 # 要塞（兼容YUNG's Better Strongholds）
 execute as @s at @s if predicate draw:structure/in_stronghold if predicate draw:well/stronghold run function draw:draw/stronghold
 
+# 远古城市
+execute as @s at @s if predicate draw:structure/in_ancient_city if predicate draw:well/ancient_city run function draw:draw/ancient_city
+
 # 林地府邸
 execute as @s at @s if predicate draw:structure/in_mansion if predicate draw:well/village run function draw:draw/mansion
 

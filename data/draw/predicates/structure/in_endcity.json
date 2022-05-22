@@ -4,13 +4,13 @@
         {
             "condition": "minecraft:location_check",
             "predicate":{
-                "feature": "endcity"
+                "structure": "endcity"
             }
         },
         {
             "condition": "minecraft:location_check",
             "predicate":{
-                "feature": "end_city"
+                "structure": "end_city"
             }
         }
     ]

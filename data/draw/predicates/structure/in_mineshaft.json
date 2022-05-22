@@ -4,13 +4,13 @@
         {
             "condition": "minecraft:location_check",
             "predicate":{
-                "feature": "mineshaft"
+                "structure": "mineshaft"
             }
         },
         {
             "condition": "minecraft:location_check",
             "predicate":{
-                "feature": "bettermineshafts:bettermineshaft"
+                "structure": "bettermineshafts:bettermineshaft"
             }
         }
     ]

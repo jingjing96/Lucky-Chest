@@ -4,13 +4,13 @@
         {
             "condition": "minecraft:location_check",
             "predicate":{
-                "feature": "stronghold"
+                "structure": "stronghold"
             }
         },
         {
             "condition": "minecraft:location_check",
             "predicate":{
-                "feature": "betterstrongholds:betterstronghold"
+                "structure": "betterstrongholds:betterstronghold"
             }
         }
     ]

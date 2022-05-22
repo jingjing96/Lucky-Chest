@@ -1,0 +1,77 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{BlockEntityTag:{LootTable:\"chests/ancient_city\"},display:{Name:'[\"§b§o古城宝箱\"]'},drawMark:\"loot_chest\"}"
+						}
+					],
+          "name": "minecraft:barrel"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{BlockEntityTag:{LootTable:\"chests/ancient_city_ice_box\"},display:{Name:'[\"§e§o古城冰窖箱\"]'},drawMark:\"loot_chest\"}"
+						}
+					],
+          "name": "minecraft:barrel"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{BlockEntityTag:{LootTable:\"draw:chests/overworld/redstone_elements\"},display:{Name:'[\"§e§o古城红石箱\"]'},drawMark:\"loot_chest\"}"
+						}
+					],
+          "name": "minecraft:barrel"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{BlockEntityTag:{LootTable:\"draw:chests/overworld/ancient_city_building_blocks\"},display:{Name:'[\"§o古城石砖箱\"]'},drawMark:\"loot_chest\"}"
+						}
+					],
+          "name": "minecraft:barrel"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{BlockEntityTag:{LootTable:\"draw:chests/overworld/deepslate\"},display:{Name:'[\"§o深层岩石箱\"]'},drawMark:\"loot_chest\"}"
+						}
+					],
+          "name": "minecraft:barrel"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{BlockEntityTag:{LootTable:\"chests/spawn_bonus_chest\"},display:{Name:'[\"§o生存者奖励箱\"]'},drawMark:\"loot_chest\"}"
+						}
+					],
+          "name": "minecraft:barrel"
+        }
+      ]
+    }
+  ]
+}
