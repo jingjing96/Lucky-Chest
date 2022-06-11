@@ -22,7 +22,7 @@
         "loot_table": "minecraft:chests/bastion_other",
         "player": {
           "location": {
-            "feature": "bastion_remnant"
+            "structure": "bastion_remnant"
           }
         }
       }
@@ -33,7 +33,7 @@
         "loot_table": "minecraft:chests/bastion_treasure",
         "player": {
           "location": {
-            "feature": "bastion_remnant"
+            "structure": "bastion_remnant"
           }
         }
       }
@@ -44,7 +44,7 @@
         "loot_table": "minecraft:chests/bastion_hoglin_stable",
         "player": {
           "location": {
-            "feature": "bastion_remnant"
+            "structure": "bastion_remnant"
           }
         }
       }
@@ -55,7 +55,7 @@
         "loot_table": "minecraft:chests/bastion_bridge",
         "player": {
           "location": {
-            "feature": "bastion_remnant"
+            "structure": "bastion_remnant"
           }
         }
       }
