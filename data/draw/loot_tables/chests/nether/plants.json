@@ -148,7 +148,9 @@
           "conditions": [
             {
               "condition": "minecraft:location_check",
-              "dimension": "minecraft:the_nether"
+              "predicate": {
+                "dimension": "minecraft:the_nether"
+              }
             }
           ],
           "name": "minecraft:nether_wart"
@@ -159,7 +161,9 @@
           "conditions": [
             {
               "condition": "minecraft:location_check",
-              "dimension": "minecraft:the_nether"
+              "predicate": {
+                "dimension": "minecraft:the_nether"
+              }
             }
           ],
           "name": "minecraft:crimson_fungus"
@@ -170,7 +174,9 @@
           "conditions": [
             {
               "condition": "minecraft:location_check",
-              "dimension": "minecraft:the_nether"
+              "predicate": {
+                "dimension": "minecraft:the_nether"
+              }
             }
           ],
           "name": "minecraft:warped_fungus"
@@ -181,7 +187,9 @@
           "conditions": [
             {
               "condition": "minecraft:location_check",
-              "dimension": "minecraft:the_nether"
+              "predicate": {
+                "dimension": "minecraft:the_nether"
+              }
             }
           ],
           "name": "minecraft:shroomlight"
