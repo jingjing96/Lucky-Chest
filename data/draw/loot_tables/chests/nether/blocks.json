@@ -204,8 +204,8 @@
           "conditions": [
             {
               "condition": "minecraft:location_check",
-              "dimension": "minecraft:the_nether",
               "predicate":{
+                "dimension": "minecraft:the_nether",
                 "position": {
                   "y": {
                     "max": 117,
@@ -234,9 +234,8 @@
           "conditions": [
             {
               "condition": "minecraft:location_check",
-              "dimension": "minecraft:the_nether",
               "predicate":{
-
+                "dimension": "minecraft:the_nether",
                 "position": {
                   "y": {
                     "max": 117,

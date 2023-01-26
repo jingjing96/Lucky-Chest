@@ -154,8 +154,8 @@
           "conditions": [
             {
               "condition": "minecraft:location_check",
-              "dimension": "minecraft:overworld",
               "predicate":{
+                "dimension": "minecraft:overworld",
                 "position": {
                   "y": {
                     "max": 30,
@@ -184,8 +184,8 @@
           "conditions": [
             {
               "condition": "minecraft:location_check",
-              "dimension": "minecraft:overworld",
               "predicate":{
+                "dimension": "minecraft:overworld",
                 "position": {
                   "y": {
                     "max": 30,
@@ -214,8 +214,8 @@
           "conditions": [
             {
               "condition": "minecraft:location_check",
-              "dimension": "minecraft:overworld",
               "predicate":{
+                "dimension": "minecraft:overworld",
                 "position": {
                   "y": {
                     "max": 30,
@@ -259,8 +259,8 @@
           "conditions": [
             {
               "condition": "minecraft:location_check",
-              "dimension": "minecraft:overworld",
               "predicate":{
+                "dimension": "minecraft:overworld",
                 "position": {
                   "y": {
                     "max": 2032,
@@ -289,8 +289,8 @@
           "conditions": [
             {
               "condition": "minecraft:location_check",
-              "dimension": "minecraft:overworld",
               "predicate":{
+                "dimension": "minecraft:overworld",
                 "position": {
                   "y": {
                     "max": 112,
@@ -319,8 +319,8 @@
           "conditions": [
             {
               "condition": "minecraft:location_check",
-              "dimension": "minecraft:overworld",
               "predicate":{
+                "dimension": "minecraft:overworld",
                 "position": {
                   "y": {
                     "max": 2032,
@@ -349,8 +349,8 @@
           "conditions": [
             {
               "condition": "minecraft:location_check",
-              "dimension": "minecraft:overworld",
               "predicate": {
+                "dimension": "minecraft:overworld",
                 "position": {
                   "y": {
                     "max": 384,
@@ -379,8 +379,8 @@
           "conditions": [
             {
               "condition": "minecraft:location_check",
-              "dimension": "minecraft:overworld",
               "predicate": {
+                "dimension": "minecraft:overworld",
                 "position": {
                   "y": {
                     "max": 2032,
@@ -409,8 +409,8 @@
           "conditions": [
             {
               "condition": "minecraft:location_check",
-              "dimension": "minecraft:overworld",
               "predicate":{
+                "dimension": "minecraft:overworld",
                 "position": {
                   "y": {
                     "max": 16,
@@ -439,8 +439,8 @@
           "conditions": [
             {
               "condition": "minecraft:location_check",
-              "dimension": "minecraft:overworld",
               "predicate":{
+                "dimension": "minecraft:overworld",
                 "position": {
                   "y": {
                     "max": 2032,
@@ -469,8 +469,8 @@
           "conditions": [
             {
               "condition": "minecraft:location_check",
-              "dimension": "minecraft:overworld",
               "predicate":{
+                "dimension": "minecraft:overworld",
                 "position": {
                   "y": {
                     "max": 64,
@@ -499,8 +499,8 @@
           "conditions": [
             {
               "condition": "minecraft:location_check",
-              "dimension": "minecraft:overworld",
               "predicate":{
+                "dimension": "minecraft:overworld",
                 "position": {
                   "y": {
                     "max": 2032,
@@ -589,8 +589,8 @@
             {
               "condition": "minecraft:location_check",
               "predicate": {
-                "biome": "minecraft:badlands",
                 "dimension": "minecraft:overworld",
+                "biome": "minecraft:badlands",
                 "position": {
                   "y": {
                     "max": 480,
@@ -619,8 +619,8 @@
           "conditions": [
             {
               "condition": "minecraft:location_check",
-              "dimension": "minecraft:overworld",
               "predicate": {
+                "dimension": "minecraft:overworld",
                 "biome": "minecraft:badlands",
                 "position": {
                   "y": {
@@ -650,8 +650,8 @@
           "conditions": [
             {
               "condition": "minecraft:location_check",
-              "dimension": "minecraft:overworld",
               "predicate": {
+                "dimension": "minecraft:overworld",
                 "position": {
                   "y": {
                     "max": 32,
@@ -680,8 +680,8 @@
           "conditions": [
             {
               "condition": "minecraft:location_check",
-              "dimension": "minecraft:overworld",
               "predicate":{
+                "dimension": "minecraft:overworld",
                 "position": {
                   "y": {
                     "max": 16,
@@ -710,8 +710,8 @@
           "conditions": [
             {
               "condition": "minecraft:location_check",
-              "dimension": "minecraft:overworld",
               "predicate":{
+                "dimension": "minecraft:overworld",
                 "position": {
                   "y": {
                     "max": 2032,
