@@ -1,3 +1,5 @@
+[TOC]
+
 # 幸运宝箱（Lucky-Chest）
 
 This file is written in Chinese.
