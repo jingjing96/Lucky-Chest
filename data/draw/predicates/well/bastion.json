@@ -3,7 +3,7 @@
 		"condition": "minecraft:location_check",
 		"predicate": {
 			"fluid": {
-				"fluid": "minecraft:water"
+				"fluid": "minecraft:lava"
 			}
 		}
 	},
