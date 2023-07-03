@@ -1,6 +1,10 @@
 {
     "parent": "draw:root",
     "display": {
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false,
         "icon": {
             "item": "minecraft:barrel"
         },
@@ -11,10 +15,6 @@
             "text": "打开所有战利品箱"
         }
     },
-    "frame": "challenge",
-    "show_toast": true,
-    "announce_to_chat": true,
-    "hidden": false,
     "criteria": {
         "village_armorer": {
             "trigger": "minecraft:player_generates_container_loot",
@@ -310,6 +310,18 @@
                 "loot_table": "chests/abandoned_mineshaft"
             }
         },
+        "ancient_city": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "chests/ancient_city"
+            }
+        },
+        "ancient_city_ice_box": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "chests/ancient_city_ice_box"
+            }
+        },
         "bastion_bridge": {
             "trigger": "minecraft:player_generates_container_loot",
             "conditions": {
@@ -602,6 +614,12 @@
         ],
         [
             "abandoned_mineshaft"
+        ],
+        [
+            "ancient_city"
+        ],
+        [
+            "ancient_city_ice_box"
         ],
         [
             "bastion_bridge"

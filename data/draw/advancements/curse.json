@@ -1,6 +1,10 @@
 {
     "parent": "draw:root",
     "display": {
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false,
         "icon": {
             "item": "minecraft:trident"
         },
@@ -11,10 +15,6 @@
             "text": "打开一个海神的宝箱"
         }
     },
-    "frame": "goal",
-    "show_toast": true,
-    "announce_to_chat": true,
-    "hidden": false,
     "criteria": {
         "get_chest": {
             "trigger": "minecraft:player_generates_container_loot",
