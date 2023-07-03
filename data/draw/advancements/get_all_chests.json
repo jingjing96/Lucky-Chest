@@ -1,6 +1,10 @@
 {
     "parent": "draw:root",
     "display": {
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false,
         "icon": {
             "item": "minecraft:barrel"
         },
@@ -11,10 +15,6 @@
             "text": "打开所有战利品箱"
         }
     },
-    "frame": "challenge",
-    "show_toast": true,
-    "announce_to_chat": true,
-    "hidden": false,
     "criteria": {
         "village_armorer": {
             "trigger": "minecraft:player_generates_container_loot",
