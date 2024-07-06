@@ -20,7 +20,7 @@ This file is written in Chinese.
 
 目前只兼容以下模组：YUNG的更好的矿井、YUNG的更好的地牢、YUNG的更好的要塞。
 
-可能不兼容：命名空间draw、计分项前缀draw。
+可能不兼容：命名空间`draw`、计分项前缀`draw`。
 
 ### 基本玩法
 
